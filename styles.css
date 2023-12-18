@@ -1,3 +1,11 @@
+/* colors: 
+#4A332D
+#6C4A3F
+#896B60
+#D0C7C2
+#F5F2EA
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -7,3 +15,113 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+header {
+    background-color: #4A332D;
+    padding: 1em 13em;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #896B60;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 5px;
+}
+
+a:link, .secondary {
+    text-decoration: none;
+    color: #896B60;
+    font-size: 18px;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    padding: 7em 0;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.welcome .left {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.welcome .right {
+    width: 50%;
+    flex-shrink: 0;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #D0C7C2;
+}
+
+.image {
+    background-color: #D0C7C2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 215px;
+}
+
+.main1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F2EA;
+    color: #4A332D;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 13em;
+    gap: 2em;
+}
+
+.main2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #4A332D;
+    color: #F5F2EA;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 13em;
+    gap: 2em;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.container {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.square {
+    border: 4px solid #4A332D;
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+}
